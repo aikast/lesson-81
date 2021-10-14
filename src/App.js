@@ -16,6 +16,10 @@ function App() {
             <NavLink  activeClassName="active" to="/login"> Log in </NavLink>
             <NavLink  activeClassName="active" to="/register"> Register</NavLink>
             <NavLink  activeClassName="active" to="/profile"> Profile </NavLink>
+            <div>
+              hello, username!
+              || login 
+            </div>
           </div>
           <div className="content">
             <Switch>

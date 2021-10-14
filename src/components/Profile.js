@@ -26,3 +26,7 @@ export default Profile;
 // public - no token
 
 // private - token 
+
+// 1. sign up
+// 2. private entity route
+// 3. 

@@ -18,6 +18,13 @@ export const deleteUserData = () => {
 }
 
 export const saveUserData = (token, userData) => {
-	localStorage.setItem("token", token);
-	localStorage.setItem("userData", JSON.stringify(userData));
+	// localStorage.setItem("token", token);
+	// localStorage.setItem("userData", JSON.stringify(userData));
+	try {
+		const state = JSON.stringify({token ,userData})
+		localStorage.setItem("appState", state);
+	} catch (error) {
+		console.error(error)
+	}
+
 }
